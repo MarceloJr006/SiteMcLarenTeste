@@ -1,0 +1,115 @@
+#body{
+    background-color:#FFF8DC;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(13, 1fr);
+    gap: 1px 1px;
+  }
+  
+  .Menu {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1px 1px;
+    grid-area: 1 / 1 / 2 / 8;
+    background-color: chocolate;
+  }
+  
+  .logo { 
+      grid-area: 1 / 2 / 4 / 4; 
+    
+    }
+
+  .Inicio { 
+      grid-area: 2 / 3 / 3 / 4; 
+      text-align: center;
+      font-weight: bolder;
+    }
+
+    .Inicio a:visited { text-decoration: none; color: brown; }
+    .Inicio a:focus { text-decoration: none; }
+    .Inicio a:hover, a:active { text-decoration: none; color:black }
+    
+  .Galeria { 
+      grid-area: 2 / 4 / 3 / 5; 
+      text-align: center;
+      font-weight: bolder;
+    }
+
+    .Galeria a:visited { text-decoration: none; color: brown; }
+    .Galeria a:focus { text-decoration: none; }
+    .Galeria a:hover, a:active { text-decoration: none; color:black }
+  
+  .Contatos {
+       grid-area: 2 / 5 / 3 / 6; 
+       text-align: center;
+       font-weight: bolder;
+    }
+
+    .Contatos a:visited { text-decoration: none; color: brown; }
+    .Contatos a:focus { text-decoration: none; }
+    .Contatos a:hover, a:active { text-decoration: none; color:black }
+
+
+    .Carrosel { 
+        grid-area: 2 / 1 / 9 / 8;
+        
+    }
+
+    .Carrosel h5, p{
+        color: black;
+        font-weight: bolder;
+    }
+
+    .sobre{
+        grid-area: 7 / 3 / 7 / 6;
+        text-align: center;
+        margin-top: 30px;
+        font-weight: bolder;
+    }
+
+    .foto1 { 
+        grid-area: 8 / 2 / 10 / 3;
+     }
+     
+    .TextoFoto1 { 
+         grid-area: 8 / 3 / 10 / 7; 
+         font-weight: bolder;
+         margin-left: 10px;
+    }
+
+    .BruceFoto1{
+        text-align: center;
+    }
+
+    .foto2 { 
+        grid-area: 11 / 6 / 13 / 7; 
+    }
+
+    .TextoFoto2 { 
+        grid-area: 11 / 2 / 13 / 6; 
+        font-weight: bolder;
+    }
+
+    .McLarenAutomotive {
+        text-align: center;
+    }
+
+    .roda{
+        background-color: chocolate;
+        font-weight: bolder;
+        text-align: center;
+    }
+
+    .roda a.link{
+        text-decoration: none;
+    }
+
+    .Carrosel h5, p{
+        color: white;
+    }
+
